@@ -1,5 +1,8 @@
 #include "qdcmodule.h"
 #include "qdebug.h"
+#include <math.h>   
+
+using namespace std;
 
 QDCModule::QDCModule(int handleChef_):
     handleChef(handleChef_)

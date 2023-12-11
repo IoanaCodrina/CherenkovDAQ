@@ -341,7 +341,7 @@ bool TDCModule::setTriggerMode(uint16_t windowWidth, int16_t windowOffset)
 
 }
 
-void TDCModule::readEvents(std::vector<long>* values)
+void TDCModule::readEvents(std::vector<long int>* values)
 {
     uint16_t value16;
     uint32_t value32;

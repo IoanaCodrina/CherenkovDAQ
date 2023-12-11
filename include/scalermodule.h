@@ -3,6 +3,7 @@
 
 #include <QString>
 #include <CAENVMElib.h>
+#include <vector>
 
 class ScalerModule
 {
