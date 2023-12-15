@@ -1,6 +1,7 @@
 #include "tdc.h"
 #include "ui_tdc.h"
 
+
 tdc::tdc(QWidget *parent, int handleChef_) :
     QWidget(parent), ui(new Ui::tdc), isRunning(false)
 {
@@ -26,7 +27,9 @@ tdc::tdc(QWidget *parent, int handleChef_) :
 
     // create the histogram
     hTDC = new histogram(ui->qcp_tdc, "TDC Delta t", "time (ns)", "# events");
-    hTDC->adjustPlot(ui->spinBox_tdc_nbins->value(), ui->doubleSpinBox_tdc_tmin->value(), ui->doubleSpinBox_tdc_tmax->value());
+    hTDC->adjustPlot(ui->spinBox_tdc_nbins->value(),
+		     ui->doubleSpinBox_tdc_tmin->value(),
+		     ui->doubleSpinBox_tdc_tmax->value());
 }
 
 tdc::~tdc()
