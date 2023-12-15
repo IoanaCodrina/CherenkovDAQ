@@ -8,7 +8,8 @@
      * mkdir qt5-build
      * cd qt5-build
      * ../qt5/configure -developer-build -opensource -nomake examples -nomake tests
-
+     * make -j(nproc)
+     * sudo make install 
 4. Install qt5 libraries (version >= 5.7)
    * sudo apt-get install qt5-default 
    * (wget http://download.qt.io/official_releases/qt/5.7/5.7.0/qt-opensource-linux-x64-5.7.0.run)
