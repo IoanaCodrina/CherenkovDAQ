@@ -1,4 +1,4 @@
-# LeoDAQ
+# CherenkovDAQ
 ## Requirements:
 1. Ubuntu 20.04 or more recent
 2. sudo apt-get install build-essential libfontconfig1 mesa-common-dev
@@ -27,19 +27,19 @@
 2. Install the CAEN VME C libraries
    * cd CAENVMELib-2.50/lib
    * sudo ./install_x64
-3. Compile the LeoDAQ software
-   * qmake LeoDAQ.pro
+3. Compile the CherenkovDAQ software
+   * qmake CherenkovDAQ.pro
    * make -j8
    * sudo make install
 4. Execute the programme
-   * ./bin/LeoDAQ #or from a double-click on the desktop icon if a make install was done
+   * ./bin/CherenkovDAQ #or from a double-click on the desktop icon if a make install was done
 5. Make it available for other users (optional)
-   * sudo cp ~/Desktop/LeoDAQ.desktop otherUser/Desktop/.
-   * sudo chown otherUser Desktop/LeoDAQ.desktop
+   * sudo cp ~/Desktop/CherenkovDAQ.desktop otherUser/Desktop/.
+   * sudo chown otherUser Desktop/CherenkovDAQ.desktop
   
 ## Update:
 1. git pull
-2. qmake LeoDAQ.pro
+2. qmake CherenkovDAQ.pro
 3. make -j8
 4. sudo make install
 

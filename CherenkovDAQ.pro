@@ -8,16 +8,16 @@ QT       += core gui printsupport
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = LeoDAQ
+TARGET = CherenkovDAQ
 DESTDIR = bin
-targetinstall.path = /usr/local/bin/LeoDAQ
-targetinstall.files = bin/LeoDAQ
+targetinstall.path = /usr/local/bin/CherenkovDAQ
+targetinstall.files = bin/CherenkovDAQ
 
 INSTALLS += targetinstall
 
-icon.path = /usr/local/LeoDAQ
-icon.files = data/iconLeoDAQ.png
-icon.extra = cp data/LeoDAQ.desktop ~/Desktop/LeoDAQ.desktop
+icon.path = /usr/local/CherenkovDAQ
+icon.files = data/iconCherenkovDAQ.png
+icon.extra = cp data/CherenkovDAQ.desktop ~/Desktop/CherenkovDAQ.desktop
 
 INSTALLS += icon
 
